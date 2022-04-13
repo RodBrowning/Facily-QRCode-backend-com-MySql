@@ -1,0 +1,22 @@
+{
+  "name": "qrcodes",
+  "version": "1.0.0",
+  "description": "Api para guardar qr codes",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rodrigo da Silva Moura",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "dotenv": "^16.0.0",
+    "express-generator": "^4.16.1",
+    "mongoose": "^6.2.1",
+    "mysql": "github:mysqljs/mysql"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
